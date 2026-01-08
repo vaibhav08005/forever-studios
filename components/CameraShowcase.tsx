@@ -41,11 +41,7 @@ const CameraShowcase: React.FC = () => {
           </h2>
           <div className="space-y-6 text-gray-400 font-light text-lg">
             <p>
-              {language === 'en' ? (
-                <>At <strong className="text-white">Shivrudra Event Photography</strong>we don’t just click pictures — we capture soul-stirring stories. From the sparkle in your eyes on your wedding day, to the tiny miracles in newborn shoots, every moment becomes timeless art in our frame. With a creative team that listens with the heart and shoots with passion, we bring emotions to life through light & shadow.</>
-              ) : (
-                <><strong className="text-white">शिवरुद्र इव्हेंट्स स्टुडिओ</strong> मध्ये, आम्ही फक्त फोटो घेत नाही — क्षणांना जिवंत करतो. तुमच्या हास्याचा पहिला तेज, प्रेमाच्या नजरेतील नाजुक भाव, आणि आयुष्याच्या खास वळणांचे सुंदर क्षण — आमच्या कॅमेर्‍यात अमर होतात..</>
-              )}
+              {t.description1[language]}
             </p>
             <p>
               {t.description2[language]}

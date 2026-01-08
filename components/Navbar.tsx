@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { Menu, X, Camera, Globe } from 'lucide-react';
+import { Menu, X, Globe } from 'lucide-react';
 import { useLanguage } from './LanguageContext';
 import { translations } from '../translations';
+import JmeLogo from './JmeLogo';
 
 const Navbar: React.FC = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -37,10 +38,7 @@ const Navbar: React.FC = () => {
       }`}>
       <div className="max-w-7xl mx-auto px-6 flex justify-between items-center">
         <a href="#home" className="flex items-center gap-3 group">
-          <Camera className="w-8 h-8 text-white group-hover:text-brand-accent transition-colors" />
-          <span className="font-display text-xl font-bold uppercase tracking-tight text-white group-hover:text-brand-accent transition-colors">
-            Shiv<span className="text-brand-accent">rudra</span>
-          </span>
+          <JmeLogo className="w-24 h-auto" />
         </a>
 
         {/* Desktop Nav */}

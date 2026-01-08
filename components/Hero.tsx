@@ -2,6 +2,7 @@ import React, { useEffect, useState, useRef } from 'react';
 import { ArrowDown } from 'lucide-react';
 import { useLanguage } from './LanguageContext';
 import { translations } from '../translations';
+import JmeLogo from './JmeLogo';
 
 const Hero: React.FC = () => {
   const [offset, setOffset] = useState(0);
@@ -18,7 +19,7 @@ const Hero: React.FC = () => {
   }, []);
 
   return (
-    <section id="home" className="relative h-[100dvh] w-full overflow-hidden flex flex-col items-center justify-center bg-brand-dark">
+    <section id="home" className="relative h-[100dvh] w-full overflow-hidden flex flex-col items-center justify-center">
       {/* Background Video */}
       <div className="absolute inset-0 w-full h-full overflow-hidden">
         <video
@@ -27,9 +28,9 @@ const Hero: React.FC = () => {
           loop
           muted
           playsInline
-          className="w-full h-full object-cover opacity-90"
+          className="w-full h-full object-cover"
           style={{
-            transform: `translateY(${offset * 0.3}px) scale(${1 + offset * 0.0003})`,
+            transform: `translateY(${offset * 0.3}px) scale(${1.05 + offset * 0.0003})`,
           }}
           poster="https://images.unsplash.com/photo-1492691527719-9d1e07e534b4?q=80&w=2071&auto=format&fit=crop"
         >
@@ -41,13 +42,9 @@ const Hero: React.FC = () => {
       {/* Subtle vignette overlay for depth */}
       <div className="absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-black/30 z-[1]" />
 
-      {/* Top-Left Brand Logo Image */}
-      <div className="absolute top-3 left-3 z-20 opacity-0 animate-[fadeIn_1.2s_ease-out_forwards]">
-        <img
-          src={`${import.meta.env.BASE_URL}images/hero_logo_transparent.png`}
-          alt="Shivrudra Events"
-          className="w-20 md:w-24 lg:w-24 object-contain drop-shadow-2xl"
-        />
+      {/* Top-Left Brand Logo */}
+      <div className="absolute top-6 left-6 z-20 opacity-0 animate-[fadeIn_1.2s_ease-out_forwards]">
+        <JmeLogo className="w-24 md:w-32 lg:w-40 drop-shadow-2xl" />
       </div>
 
       {/* Scroll Indicator */}

@@ -10,8 +10,8 @@ export const translations = {
     },
 
     hero: {
-        title: { en: 'Shivrudra Events', mr: 'Shivrudra Events' },
-        tagline: { en: 'Photography Studio', mr: 'आठवणींचा साठा' }, // "Treasure of Memories"
+        title: { en: 'JME Event Photography', mr: 'JME Event Photography' },
+        tagline: { en: 'Photography Studio', mr: 'भावनांचे कलात्मक सादरीकरण' }, // "Artistic presentation of emotions"
         cta: { en: 'Book Now', mr: 'आजच बुक करा' },
     },
 
@@ -20,12 +20,12 @@ export const translations = {
         heading1: { en: "We Don't Just Take Photos,", mr: 'क्षण सुंदर असतात…परम स्मृतिमय होण्यासाठी,' },
         heading2: { en: 'We Capture Souls.', mr: 'फक्त योग्य कॅमेर्‍याची गरज असते,' }, // "We preserve moments"
         description1: {
-            en: 'At Shivrudra Event Photography, we don’t just click pictures — we capture soul-stirring stories. From the sparkle in your eyes on your wedding day, to the tiny miracles in newborn shoots, every moment becomes timeless art in our frame. With a creative team that listens with the heart and shoots with passion, we bring emotions to life through light & shadow.',
-            mr: 'शिवरुद्र इव्हेंट फ़ोटोग्राफी मध्ये, आम्ही फक्त फोटो घेत नाही — क्षणांना जिवंत करतो. तुमच्या हास्याचा पहिला तेज, प्रेमाच्या नजरेतील नाजुक भाव, आणि आयुष्याच्या खास वळणांचे सुंदर क्षण — आमच्या कॅमेर्‍यात अमर होतात.'
+            en: 'At JME Event Photography, we specialize in skilled photography focused on capturing emotions as art. From the sparkle in your eyes on your wedding day to the tiny miracles in newborn shoots, every moment becomes timeless art in our frame. With a creative team that listens with the heart and shoots with passion, we bring emotions to life through light & shadow.',
+            mr: 'JME इव्हेंट फोटोग्राफीमध्ये, आम्ही भावनांना कलेच्या स्वरूपात टिपण्यासाठी ओळखले जातो. तुमच्या लग्नाचा तो खास उत्साह असो किंवा नवजात अर्भकाचे निरागस हास्य—प्रत्येक क्षण आमच्या कॅमेऱ्यात एक अजरामर कलाकृती बनतो.'
         },
         description2: {
-            en: "Be it candid wedding tales, dreamy pre-wedding hues, graceful maternity portraits, or vibrant commercial visuals — our lens speaks your story with elegance. Trust, creativity, and unforgettable memories — that’s our promise to you.",
-            mr: 'विवाह, प्री-वेडिंग, कँडिड शुट, गरोदरपणाचे सौंदर्य किंवा व्यावसायिक छायाचित्रण — प्रत्येक क्षण आम्ही कलात्मकतेने टिपतो, भावनांना आकार देतो आणि स्मृतींना वहातो. आमचा अनुभव, सर्जनशील दृष्टी आणि तुमच्याबद्दल असलेले प्रेम हेच तुमच्या आठवणींचे सुंदर कॅनव्हास बनवते.'
+            en: "Be it candid wedding tales, dreamy pre-wedding hues, graceful maternity portraits, or vibrant commercial visuals — our lens speaks your story with elegance. Lifestyle, Fashion, and Event photography — that’s our promise to you.",
+            mr: 'विवाह, प्री-वेडिंग, कँडिड शुट, गरोदरपणाचे सौंदर्य किंवा व्यावसायिक छायाचित्रण — प्रत्येक क्षण आम्ही कलात्मकतेने टिपतो. जीवनशैली, फॅशन आणि इव्हेंट फोटोग्राफी—हाच आमचा तुम्हाला दिलेला शब्द आहे.'
         },
         stats: {
             weddings: { en: 'Weddings', mr: 'लग्नसोहळे' },
@@ -53,10 +53,10 @@ export const translations = {
             price: { en: 'Starts ₹5,000', mr: '₹५,००० पासून' },
         },
         product: {
-            title: { en: 'Product & Brand', mr: 'प्रॉडक्ट व ब्रँड' },
+            title: { en: 'Maternity & Newborn', mr: 'मॅटर्नीटी व न्यूबॉर्न' },
             description: {
-                en: 'High-end product photography to elevate your e-commerce business.',
-                mr: 'तुमच्या व्यवसायासाठी उच्च दर्जाची प्रॉडक्ट फोटोग्राफी.'
+                en: 'Beautifully documenting the journey of motherhood and the first days of new life.',
+                mr: 'मातृत्व आणि नवीन आयुष्याचे पहिले दिवस सुंदररित्या टिपण्याचे आमचे वैशिष्ट्य.'
             },
             price: { en: 'Starts ₹8,000', mr: '₹८,००० पासून' },
         },
@@ -124,7 +124,12 @@ export const translations = {
         visitUs: { en: 'Visit Us', mr: 'आमचा पत्ता' },
         callUs: { en: 'Call Us', mr: 'फोन करा' },
         email: { en: 'Email', mr: 'ईमेल' },
-        timing: { en: 'Mon - Sun: 10AM - 7PM', mr: 'सोम - रवि: सकाळी १० - संध्याकाळी ७' },
+        address: {
+            en: '2nd Floor, A Wing, Near Mahaveer Square, Gurukrupa Market, Vazirabad, Nanded-431601',
+            mr: 'दुसरा मजला, ए विंग, महावीर चौक जवळ, गुरुकृपा मार्केट, वजीराबाद, नांदेड-४३१६०१'
+        },
+        phone: { en: '08045783378', mr: '०८०४५७८३३७८' },
+        timing: { en: 'Open 24 Hours', mr: '२४ तास चालू' },
         form: {
             name: { en: 'Name', mr: 'नाव' },
             phone: { en: 'Phone', mr: 'फोन' },
@@ -135,11 +140,11 @@ export const translations = {
             send: { en: 'Send Inquiry', mr: 'चौकशी पाठवा' },
             sending: { en: 'Sending...', mr: 'पाठवत आहे...' },
             services: {
-                wedding: { en: 'Wedding Photography', mr: 'लग्न फोटोग्राफी' },
-                portrait: { en: 'Portrait Shoot', mr: 'पोर्ट्रेट शूट' },
-                event: { en: 'Event Coverage', mr: 'इव्हेंट कव्हरेज' },
-                birthday: { en: 'Birthday shoot', mr: 'वाढदिवस शूट' },
-                other: { en: 'Other', mr: 'इतर' },
+                wedding: { en: 'Wedding & Pre-wedding', mr: 'विवाह व प्री-वेडिंग' },
+                portrait: { en: 'Portrait & Candid', mr: 'पोर्ट्रेट व कँडिड' },
+                event: { en: 'Lifestyle & Fashion', mr: 'लाईफस्टाईल व फॅशन' },
+                birthday: { en: 'Event & Birthday', mr: 'इव्हेंट व वाढदिवस' },
+                other: { en: 'Maternity & Newborn', mr: 'मॅटर्नीटी व न्यूबॉर्न' },
             },
         },
         success: { en: 'Thanks for your inquiry! We will contact you shortly.', mr: 'चौकशीबद्दल धन्यवाद! आम्ही लवकरच संपर्क करू.' },

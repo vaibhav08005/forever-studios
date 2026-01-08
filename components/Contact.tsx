@@ -36,8 +36,8 @@ const Contact: React.FC = () => {
       formData.append('service', formState.service);
       formData.append('date', formState.date);
       formData.append('message', formState.message);
-      formData.append('subject', `New Inquiry from ${formState.name} - Shivrudra Events Studio`);
-      formData.append('from_name', 'Shivrudra Events Studio Contact Form');
+      formData.append('subject', `New Inquiry from ${formState.name} - JME Event Photography`);
+      formData.append('from_name', 'JME Event Photography Contact Form');
       formData.append('to_email', WEB3FORMS_CONFIG.recipientEmail);
 
       // Send to Web3Forms
@@ -102,7 +102,7 @@ const Contact: React.FC = () => {
               </div>
               <div>
                 <h4 className="text-white font-bold uppercase mb-1">{t.visitUs[language]}</h4>
-                <p className="text-gray-400">Ravi Nagar T Point,Om Garden Road, Vazirabad<br /> Nanded-431601, Maharashtra</p>
+                <p className="text-gray-400">{(t as any).address[language]}</p>
               </div>
             </div>
 
@@ -112,7 +112,7 @@ const Contact: React.FC = () => {
               </div>
               <div>
                 <h4 className="text-white font-bold uppercase mb-1">{t.callUs[language]}</h4>
-                <p className="text-gray-400">+91 8123859148</p>
+                <p className="text-gray-400">+(91) {(t as any).phone[language]}</p>
                 <p className="text-gray-500 text-sm">{t.timing[language]}</p>
               </div>
             </div>
@@ -123,7 +123,7 @@ const Contact: React.FC = () => {
               </div>
               <div>
                 <h4 className="text-white font-bold uppercase mb-1">{t.email[language]}</h4>
-                <p className="text-gray-400">shivrudra.events@gmail.com</p>
+                <p className="text-gray-400 italic">No email address listed</p>
               </div>
             </div>
           </div>
