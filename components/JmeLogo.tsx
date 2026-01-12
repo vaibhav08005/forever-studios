@@ -17,62 +17,36 @@ const JmeLogo: React.FC<JmeLogoProps> = ({
         <svg
             width={size}
             height="auto"
-            viewBox="0 0 400 150"
+            viewBox="0 0 500 150"
             fill="none"
             xmlns="http://www.w3.org/2000/svg"
             className={className}
         >
-            {/* Three horizontal bars - Rounded style from new screenshot */}
-            <rect x="20" y="8" width="40" height="3" rx="1.5" fill="white" />
-            <rect x="20" y="15" width="40" height="3" rx="1.5" fill="white" />
-            <rect x="20" y="22" width="40" height="3" rx="1.5" fill="white" />
+            <defs>
+                <style>{`
+                    .logo-text {
+                        font-family: 'Anton', sans-serif;
+                        text-transform: uppercase;
+                        letter-spacing: -0.02em;
+                    }
+                `}</style>
+                <linearGradient id="logo-footer-gradient" x1="0" y1="0" x2="0" y2="1">
+                    <stop offset="0%" stopColor="#d4af37" />
+                    <stop offset="100%" stopColor="#8a6d1a" />
+                </linearGradient>
+            </defs>
 
-            {/* Red Tilak mark */}
-            <rect x="38.5" y="8" width="3" height="17" rx="1" fill="#ff0000" />
-
-            {/* J - Rounded Sans style */}
-            <path
-                d="M40 25 V115 Q40 145 15 145"
-                stroke="white"
-                strokeWidth="10"
-                strokeLinecap="round"
-                fill="none"
-            />
-
-            {showText && (
-                <g>
-                    {/* M - Rounded Sans style */}
-                    <path
-                        d="M75 125 V45 L115 110 L155 45 V125"
-                        stroke="white"
-                        strokeWidth="10"
-                        strokeLinejoin="round"
-                        strokeLinecap="round"
-                        fill="none"
-                    />
-
-                    {/* E - Rounded Sans style */}
-                    <path
-                        d="M185 125 V45 H245 M185 85 H235 M185 125 H245"
-                        stroke="white"
-                        strokeWidth="10"
-                        strokeLinejoin="round"
-                        strokeLinecap="round"
-                        fill="none"
-                    />
-
-                    {/* Registration mark - Yellow from screenshot */}
-                    <circle cx="280" cy="45" r="8" fill="#eab308" />
-                    <text
-                        x="276"
-                        y="49"
-                        fill="black"
-                        style={{ font: 'bold 10px sans-serif' }}
-                    >
-                        R
-                    </text>
-                </g>
-            )}
+            {/* The "FOREVER" Text with no gap and matching footer gradient for "VER" */}
+            <text
+                x="20"
+                y="110"
+                className="logo-text"
+                fontSize="100"
+                fontWeight="bold"
+            >
+                <tspan fill="white">FORE</tspan>
+                <tspan fill="url(#logo-footer-gradient)">VER</tspan>
+            </text>
         </svg>
     );
 };

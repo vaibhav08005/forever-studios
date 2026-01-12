@@ -10,26 +10,26 @@ export const translations = {
     },
 
     hero: {
-        title: { en: 'JME Event Photography', mr: 'JME Event Photography' },
-        tagline: { en: 'Photography Studio', mr: 'भावनांचे कलात्मक सादरीकरण' }, // "Artistic presentation of emotions"
+        title: { en: 'Forever Studio Nanded', mr: 'फॉरएव्हर स्टुडिओ नांदेड' },
+        tagline: { en: 'Capturing Life\'s Special Moments', mr: 'जीवनातील खास क्षणांचे कलात्मक चित्रण' },
         cta: { en: 'Book Now', mr: 'आजच बुक करा' },
     },
 
     about: {
         subtitle: { en: 'About The Studio', mr: 'स्टुडिओविषयी' },
-        heading1: { en: "We Don't Just Take Photos,", mr: 'क्षण सुंदर असतात…परम स्मृतिमय होण्यासाठी,' },
-        heading2: { en: 'We Capture Souls.', mr: 'फक्त योग्य कॅमेर्‍याची गरज असते,' }, // "We preserve moments"
+        heading1: { en: "Capturing Every Milestone,", mr: 'प्रत्येक महत्त्वाचा टप्पा टिपत,' },
+        heading2: { en: 'Creating Lasting Memories.', mr: 'अजरामर आठवणी निर्माण करतो.' },
         description1: {
-            en: 'At JME Event Photography, we specialize in skilled photography focused on capturing emotions as art. From the sparkle in your eyes on your wedding day to the tiny miracles in newborn shoots, every moment becomes timeless art in our frame. With a creative team that listens with the heart and shoots with passion, we bring emotions to life through light & shadow.',
-            mr: 'JME इव्हेंट फोटोग्राफीमध्ये, आम्ही भावनांना कलेच्या स्वरूपात टिपण्यासाठी ओळखले जातो. तुमच्या लग्नाचा तो खास उत्साह असो किंवा नवजात अर्भकाचे निरागस हास्य—प्रत्येक क्षण आमच्या कॅमेऱ्यात एक अजरामर कलाकृती बनतो.'
+            en: 'Forever Studio Nanded, established in 2022, is a professional photography studio specializing in capturing life\'s special moments. For over 4 years, we have focused on delivering high-quality portrait, wedding, and lifestyle photography that preserves your most precious memories.',
+            mr: 'फॉरएव्हर स्टुडिओ नांदेड, २०२२ मध्ये स्थापित, जीवनातील खास क्षण टिपण्यात तज्ज्ञ असलेला एक व्यावसायिक फोटोग्राफी स्टुडिओ आहे. ४ वर्षांहून अधिक काळ, आम्ही उच्च-गुणवत्तेचे पोर्ट्रेट, लग्न आणि लाईफस्टाईल फोटोग्राफीद्वारे तुमच्या अनमोल आठवणी जतन करण्यावर लक्ष केंद्रित केले आहे.'
         },
         description2: {
-            en: "Be it candid wedding tales, dreamy pre-wedding hues, graceful maternity portraits, or vibrant commercial visuals — our lens speaks your story with elegance. Lifestyle, Fashion, and Event photography — that’s our promise to you.",
-            mr: 'विवाह, प्री-वेडिंग, कँडिड शुट, गरोदरपणाचे सौंदर्य किंवा व्यावसायिक छायाचित्रण — प्रत्येक क्षण आम्ही कलात्मकतेने टिपतो. जीवनशैली, फॅशन आणि इव्हेंट फोटोग्राफी—हाच आमचा तुम्हाला दिलेला शब्द आहे.'
+            en: "From pre-wedding stories to the tiny miracles of newborns, our lens covers it all. Specializing in Lifestyle, Commercial, and Fashion photography, we ensure every frame speaks with elegance and professional excellence.",
+            mr: 'प्री-वेडिंग कथांपासून नवजात अर्भकांच्या निरागस क्षणांपर्यंत, आमचा लेन्स सर्व काही टिपतो. जीवनशैली, व्यावसायिक आणि फॅशन फोटोग्राफीमध्ये विशेष प्राविण्य मिळवून, आम्ही प्रत्येक फ्रेममध्ये व्यावसायिक उत्कृष्टता सुनिश्चित करतो.'
         },
         stats: {
             weddings: { en: 'Weddings', mr: 'लग्नसोहळे' },
-            years: { en: 'Years Exp', mr: 'वर्षांचा अनुभव' },
+            years: { en: '4+ Years Exp', mr: '४+ वर्षांचा अनुभव' },
             satisfaction: { en: 'Satisfaction', mr: 'समाधान' },
         },
     },
@@ -37,36 +37,36 @@ export const translations = {
     services: {
         heading: { en: 'Our Services', mr: 'आमच्या सेवा' },
         wedding: {
-            title: { en: 'Wedding Stories', mr: 'लग्नसोहळा चित्रण' },
+            title: { en: 'Wedding & Pre-wedding', mr: 'लग्न आणि प्री-वेडिंग' },
             description: {
-                en: 'Cinematic documentation of your special day. Traditional & Candid styles.',
-                mr: 'तुमच्या सोहळ्याची सिनेमॅटिक गाथा. पारंपारिक व कॅन्डिड शैलीत.'
+                en: 'Beautifully capturing your love story through pre-wedding and wedding shoots.',
+                mr: 'प्री-वेडिंग आणि वेडिंग शूटद्वारे तुमची प्रेमगाथा सुंदररित्या टिपतो.'
             },
-            price: { en: 'Starts ₹25,000', mr: '₹२५,००० पासून' },
+            price: { en: 'Contact for Quote', mr: 'किमतीसाठी संपर्क करा' },
         },
         portrait: {
-            title: { en: 'Portraiture', mr: 'पोर्ट्रेट फोटोग्राफी' },
+            title: { en: 'Portrait & Fashion', mr: 'पोर्ट्रेट आणि फॅशन' },
             description: {
-                en: 'Studio and outdoor portraits that capture your true personality.',
-                mr: 'तुमचे खरे व्यक्तिमत्व टिपणारे स्टुडिओ व आउटडोर पोर्ट्रेट.'
+                en: 'High-quality portrait and fashion shoots that showcase your unique style.',
+                mr: 'तुमची अनोखी शैली प्रदर्शित करणारे पोर्ट्रेट आणि फॅशन शूट.'
             },
-            price: { en: 'Starts ₹5,000', mr: '₹५,००० पासून' },
+            price: { en: 'Contact for Quote', mr: 'किमतीसाठी संपर्क करा' },
         },
         product: {
             title: { en: 'Maternity & Newborn', mr: 'मॅटर्नीटी व न्यूबॉर्न' },
             description: {
-                en: 'Beautifully documenting the journey of motherhood and the first days of new life.',
-                mr: 'मातृत्व आणि नवीन आयुष्याचे पहिले दिवस सुंदररित्या टिपण्याचे आमचे वैशिष्ट्य.'
+                en: 'Professional shoots for maternity and your little one\'s first milestones.',
+                mr: 'मॅटर्नीटी आणि तुमच्या लहान मुलांच्या पहिल्या टप्प्यांसाठी व्यावसायिक शूट.'
             },
-            price: { en: 'Starts ₹8,000', mr: '₹८,००० पासून' },
+            price: { en: 'Contact for Quote', mr: 'किमतीसाठी संपर्क करा' },
         },
         cinematography: {
-            title: { en: 'Cinematography', mr: 'सिनेमॅटोग्राफी' },
+            title: { en: 'Lifestyle & Commercial', mr: 'लाईफस्टाईल व व्यावसायिक' },
             description: {
-                en: '4K video production for events, music videos, and commercials.',
-                mr: 'इव्हेंट्स, म्युझिक व्हिडिओ व जाहिरातींसाठी 4K व्हिडिओ निर्मिती.'
+                en: 'Creative videography and photography for lifestyle and commercial needs.',
+                mr: 'लाईफस्टाईल आणि व्यावसायिक गरजांसाठी सर्जनशील व्हिडिओ आणि फोटोग्राफी.'
             },
-            price: { en: 'Starts ₹15,000', mr: '₹१५,००० पासून' },
+            price: { en: 'Contact for Quote', mr: 'किमतीसाठी संपर्क करा' },
         },
         readMore: { en: 'Read More', mr: 'अधिक वाचा' },
     },
@@ -125,11 +125,11 @@ export const translations = {
         callUs: { en: 'Call Us', mr: 'फोन करा' },
         email: { en: 'Email', mr: 'ईमेल' },
         address: {
-            en: '2nd Floor, A Wing, Near Mahaveer Square, Gurukrupa Market, Vazirabad, Nanded-431601',
-            mr: 'दुसरा मजला, ए विंग, महावीर चौक जवळ, गुरुकृपा मार्केट, वजीराबाद, नांदेड-४३१६०१'
+            en: 'Near Chandasing Corner, Hyderabad Road, Tuppa, Nanded, Maharashtra 431603',
+            mr: 'चंदसिंग कॉर्नर जवळ, हैदराबाद रोड, तुप्पा, नांदेड, महाराष्ट्र ४३१६०३'
         },
-        phone: { en: '08045783378', mr: '०८०४५७८३३७८' },
-        timing: { en: 'Open 24 Hours', mr: '२४ तास चालू' },
+        phone: { en: '+91 85113 52306', mr: '+९१ ८५११३ ५२३०६' },
+        timing: { en: 'Open until 9:00 PM', mr: 'रात्री ९:०० वाजेपर्यंत' },
         form: {
             name: { en: 'Name', mr: 'नाव' },
             phone: { en: 'Phone', mr: 'फोन' },

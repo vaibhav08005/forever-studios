@@ -56,8 +56,8 @@ const Footer: React.FC = () => {
             <h3 className="text-gray-500 text-xs uppercase tracking-widest mb-6">{t.contact[language]}</h3>
             <ul className="space-y-3">
               <li>
-                <a href="tel:08045783378" className="text-gray-400 hover:text-brand-accent text-sm transition-colors flex items-center gap-2">
-                  <Phone size={16} /> 08045783378
+                <a href="tel:+918511352306" className="text-gray-400 hover:text-brand-accent text-sm transition-colors flex items-center gap-2">
+                  <Phone size={16} /> +91 85113 52306
                 </a>
               </li>
               <li className="pt-4">
@@ -68,19 +68,37 @@ const Footer: React.FC = () => {
           </div>
         </div>
 
-        {/* Devotional Text */}
+        {/* Devotional Text - Stylish */}
         <div className="border-t border-white/5 pt-12 overflow-hidden">
-          <div className="flex flex-col items-center opacity-90">
-            <h1 className="font-display text-[8vw] font-black text-center uppercase leading-[0.8] tracking-widest bg-gradient-to-b from-brand-accent to-[#8a6d1a] bg-clip-text text-transparent">
-              JAI MAHAKAAL
+          <div className="flex flex-col items-center">
+            <h1
+              className="font-mega text-[10vw] font-black text-center uppercase leading-[0.8] tracking-wider relative"
+              style={{
+                background: 'linear-gradient(135deg, #d4af37 0%, #f5e7a3 25%, #d4af37 50%, #8a6d1a 75%, #d4af37 100%)',
+                backgroundSize: '200% 200%',
+                WebkitBackgroundClip: 'text',
+                WebkitTextFillColor: 'transparent',
+                animation: 'shimmer 3s ease-in-out infinite',
+                textShadow: '0 0 80px rgba(212, 175, 55, 0.3)',
+                filter: 'drop-shadow(0 4px 20px rgba(212, 175, 55, 0.2))',
+              }}
+            >
+              Forever
             </h1>
           </div>
         </div>
 
+        <style>{`
+          @keyframes shimmer {
+            0%, 100% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+          }
+        `}</style>
+
         {/* Copyright */}
         <div className="text-center mt-4">
           <p className="text-gray-600 text-xs">
-            © 2026 <span className="text-brand-accent font-semibold tracking-wider">JME Event Photography</span>. {t.copyright[language]} {t.love[language]}
+            © 2026 <span className="text-brand-accent font-semibold tracking-wider">Forever Studio Nanded</span>. {t.copyright[language]} {t.love[language]}
           </p>
         </div>
       </div>
